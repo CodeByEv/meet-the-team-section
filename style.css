@@ -31,7 +31,7 @@ body {
 /* Container */
 .container {
   max-width: 1140px;
-  margin: 72px 40px;
+  margin: 80px 40px;
   border-radius: 3rem;
   background: var(--background-box);
   background-image: url(resources/Background_decor.svg);
@@ -180,6 +180,7 @@ body {
   .header {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
+
   }
 
   .see-all {
@@ -226,12 +227,13 @@ body {
   .header {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
+    margin-bottom: 5rem;
   }
 
   .see-all {
     grid-column: 1 / 2;
     grid-row: 4 / 5;
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
 
   .liam {
